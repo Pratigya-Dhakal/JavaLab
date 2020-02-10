@@ -2,9 +2,6 @@ class finalDemo
 {
 	static final int num1 = 5;
 
-		public static void main(String[] args) {
-			System.out.println(num1);
-
 			final int num2;
 
 				finalDemo()
@@ -12,6 +9,9 @@ class finalDemo
 					num2 = 4;
 				}
 
-					System.out.println(num2);
+		public static void main(String[] args) {
+			System.out.println(num1);
+			finalDemo obj=new finalDemo();
+					System.out.println(obj.num2);
 		}
 }
