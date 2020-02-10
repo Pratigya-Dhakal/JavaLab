@@ -44,7 +44,7 @@ class ConstructDemo
 	{
 		Const obj = new Const();
 			System.out.println("The sum is " + obj.add());
-		Const ob = new Const("Alson");
+		Const ob = new Const("Pratigya");
 			ob.showName();
 		Const ob1 = new Const(obj);
 			ob1.showRoll();
