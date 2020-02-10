@@ -22,11 +22,6 @@ class Const
 		ob.roll = roll;
 	}
 
-	void add()
-	{
-		System.out.println(num1 + num2);
-	}
-
 	void showName()
 	{
 		System.out.println(name);
@@ -43,7 +38,7 @@ class ConstructDemo
 	public static void main(String[] args)
 	{
 		Const obj = new Const();
-			System.out.println("The sum is " + obj.add());
+			System.out.println("The Concat Element is " + obj.num1+obj.num2);
 		Const ob = new Const("Pratigya");
 			ob.showName();
 		Const ob1 = new Const(obj);
